@@ -63,7 +63,7 @@ $ vim ~/.jupyter/jupyter_notebook_config.py
 在末尾添加信息
 
 ```shell
-c.NotebookApp.ip = '*' #所有绑定服务器的IP都能访问
+c.NotebookApp.ip = '172.16.133.93' #'*'为所有绑定服务器的IP都能访问，但因为服务器防火墙，配置失败，只能配置172.16.133.93
 c.NotebookApp.port = 9876 #请勿设置为8888，与电脑端访问冲突，9001我占用了
 c.NotebookApp.password = u'sha1:67c9e60bb8b6:9ffede0825894254b2e042ea597d771089e11aed' #''内为ipython输出的密钥
 c.NotebookApp.open_browser = False #服务器gpu服务器直接打开会卡死，禁止自动打开
