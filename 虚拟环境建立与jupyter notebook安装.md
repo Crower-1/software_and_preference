@@ -82,7 +82,7 @@ vim搜索是否有remote（老版本jupyter会有远程访问限制），如有�
 jupyter notebook
 ```
 
-![image-20211011170003550](C:\Users\shor\AppData\Roaming\Typora\typora-user-images\image-20211011170003550.png)
+![image-20211011170003550](https://github.com/Crower-1/software_and_preference/blob/main/photo/image-20211011170003550.png)
 
 http://172.16.132.237:9001/即为我的jupyter访问地址
 
@@ -106,7 +106,7 @@ python -m ipykernel install --name yourname
 
 进入jupyter notebook
 
-![image-20211011170502525](C:\Users\shor\AppData\Roaming\Typora\typora-user-images\image-20211011170502525.png)
+![image-20211011170502525](https://github.com/Crower-1/software_and_preference/blob/main/photo/image-20211011170502525.png)
 
 选择你的kernel，即可运行
 
